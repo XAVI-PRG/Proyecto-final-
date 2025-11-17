@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="x.css">
+    <title>Tienda de Sonido Profesional✔</title>
+    <script lang="a.js"></script>
+</head>
+
+
+
+
+
+<head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <img src="99.jpeg" alt="Logo Audio Shop">
+    </div>
+
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <nav class="main-nav" id="menu">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+
+            <li class="dropdown">
+                <a href="#">Categorías ▾</a>
+                <div class="dropdown-menu">
+                    <a href="#">Bocinas</a>
+                    <a href="#">Micrófonos</a>
+                    <a href="#">Audífonos</a>
+                    <a href="#">Consolas</a>
+                </div>
+            </li>
+
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contacto</a></li>
+
+            <div class="search-box">
+                <input type="text" placeholder="Buscar...">
+                <i>🔍</i>
+            </div>
+        </ul>
+    </nav>
+</header>
+
+<!-- TÍTULO -->
+<h2 class="titulo-seccion">🎧 Productos de Sonido Profesional</h2>
+
+<!-- CARRUSEL -->
+<div id="carouselExampleFade" class="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="14.jpeg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="15.jpeg" alt="">
+        </div>
+        <div class="carousel-item">
+            <img src="77.jpeg" alt="">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" onclick="prevSlide()">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" onclick="nextSlide()">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!-- PRODUCTOS -->
+<div class="productos">
+
+    <div class="producto">
+        <img src="5.jpeg">
+        <h3>Bocina Profesional JBL 1200W</h3>
+        <p>Sonido potente, ideal para eventos y DJ.</p>
+        <a class="boton" href="#">Comprar</a>
+    </div>
+
+    <div class="producto">
+        <img src="45.jpeg">
+        <h3>Micrófono Shure SM7B</h3>
+        <p>Calidad profesional para estudio o podcast.</p>
+        <a class="boton" href="#">Comprar</a>
+    </div>
+
+    <div class="producto">
+        <img src="66.jpeg">
+        <h3>Consola Pioneer DJM-900NXS2</h3>
+        <p>Mezcla profesional, efectos y calidad superior.</p>
+        <a class="boton" href="#">Comprar</a>
+    </div>
+
+    <div class="producto">
+        <img src="8.jpeg">
+        <h3>Audífonos Sony WH-1000XM5</h3>
+        <p>Cancelación de ruido de alta fidelidad.</p>
+        <a class="boton" href="#">Comprar</a>
+    </div>
+</div>
+
+<h2 class="titulo-seccion">📩 Contáctanos</h2>
+
+<div class="formulario-contenedor">
+    <form class="formulario" id="formContacto">
+
+        <label>Nombre completo</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+
+        <label>Correo electrónico</label>
+        <input type="email" id="correo" placeholder="ejemplo@correo.com" required>
+
+        <label>Teléfono</label>
+        <input type="tel" id="telefono" placeholder="Ingresa tu número">
+
+        <label>Mensaje</label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+    </form>
+
+    <!-- Mensaje de éxito -->
+    <div id="mensajeExito" class="exito-oculto">
+        ¡Gracias por contactarnos! Pronto responderemos tu mensaje. 🎧
+    </div>
+</div>
+
+</body>
+</html>
